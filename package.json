@@ -1,0 +1,37 @@
+{
+  "name": "projekt-api-mongodb",
+  "version": "1.0.0",
+  "description": "REST API project for an Uber-like app built with Node.js, Express and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalapitus/express-mongo-api.git"
+  },
+  "author": "Alessio Ricciardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalapitus/express-mongo-api/issues"
+  },
+  "homepage": "https://github.com/kalapitus/express-mongo-api#readme",
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb",
+    "rest-api",
+    "javascript",
+    "backend"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
