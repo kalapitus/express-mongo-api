@@ -33,7 +33,7 @@ A step by step series of instructions on how to get a development environment ru
     - Open your terminal and install the dependencies. The list of dependencies can be found in the `package.json` file under the `dependencies` section.
       
     ```
-    npm install {dependency-name}
+    npm install <dependency-name>
     ```
 
 4. **Create a .env file:**
@@ -95,7 +95,7 @@ The project is a uber-like transportation system that manages drivers, clients a
 - Database schemas and models are created with *Mongoose* 
 
 # API Endpoints
-Use Base URL: https://localhost:3000/
+Use Base URL: https://localhost:3000
 
 **Register & Login**
 | Method | Route                        | Description                                      |
