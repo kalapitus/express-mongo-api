@@ -171,10 +171,17 @@ Expected Response
 }
 ```
 
-#Note: For all endpoints under `Drivers`, `Clients`, and `Rides`, a valid Bearer token must be included in the `Authorization` header for authentication:
+**Note**: For all endpoints that require authentication (e.g., updating or deleting resources), include a Bearer token in the `Authorization` header:
 
 ```http
 Authorization: Bearer <your-token-here>
+```
+
+## Client Endpoints
+
+### GET - all clients
+```js
+GET /api/clients
 ```
 
 Expected Response: returns array of clients in database 
@@ -274,7 +281,7 @@ Expected Response: updates client specified by :clientId and returns object of u
 ```
 
 ### DELETE - client by id
-```javascript
+```js
 DELETE /api/clients/:clientId
 ```
 Expected Response: deletes client specified by :clientId
