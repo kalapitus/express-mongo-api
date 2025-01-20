@@ -276,9 +276,9 @@ Expected Response: updates client specified by :clientId and returns object of u
 ```
 
 ### DELETE - client by id
-
+```javascript
 DELETE /api/clients/:clientId
-
+```
 Expected Response: deletes client specified by :clientId
 ```javascript
 {
