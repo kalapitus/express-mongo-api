@@ -171,7 +171,7 @@ Expected Response
 }
 ```
 
-**Note**: For all endpoints under `Drivers`, `Clients`, and `Rides`, a valid Bearer token must be included in the `Authorization` header for authentication:
+#Note: For all endpoints under `Drivers`, `Clients`, and `Rides`, a valid Bearer token must be included in the `Authorization` header for authentication:
 
 ```http
 Authorization: Bearer <your-token-here>
