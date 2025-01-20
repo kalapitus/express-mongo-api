@@ -171,12 +171,10 @@ Expected Response
 }
 ```
 
+**Note**: For all endpoints under `Drivers`, `Clients`, and `Rides`, a valid Bearer token must be included in the `Authorization` header for authentication:
 
-## Client Endpoints
-
-### GET - all clients
-```js
-GET /api/clients
+```http
+Authorization: Bearer <your-token-here>
 ```
 
 Expected Response: returns array of clients in database 
