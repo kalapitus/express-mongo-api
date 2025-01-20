@@ -171,7 +171,7 @@ Expected Response
 }
 ```
 
-**Note**: For all endpoints that require authentication (e.g., updating or deleting resources), include a Bearer token in the `Authorization` header:
+# Note: For all endpoints under `Clients`, `Drivers` and `Rides`, a valid Bearer token must be included in the `Authorization` header for authentication:
 
 ```http
 Authorization: Bearer <your-token-here>
