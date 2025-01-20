@@ -104,33 +104,33 @@ Use Base URL: https://localhost:3000/
 | POST   | /auth/login                  | logins into user account                         |
 
 **Clients**
-| Method | Route                        | Description                                      |
-|--------|------------------------------|--------------------------------------------------|
-| GET    | /api/clients                 | returns array of clients in database             |
-| GET    | /api/clients/:clientId       | returns client specified by :clientId            |
-| PUT    | /api/clients/:clientId       | updates client specified by :clientId            |
-| POST   | /api/clients                 | creates & returns new client                     |
-| DELETE | /api/clients/:clientId       | deletes client specified by :clientId            |
+| Method | Route                        | Description                                                      |
+|--------|------------------------------|------------------------------------------------------------------|
+| GET    | /api/clients                 | returns array of clients in database                             |
+| GET    | /api/clients/:clientId       | returns client specified by :clientId                            |
+| PUT    | /api/clients/:clientId       | updates client specified by :clientId & returns updated client   |
+| POST   | /api/clients                 | creates & returns new client                                     |
+| DELETE | /api/clients/:clientId       | deletes client specified by :clientId                            |
 
 
 **Drivers**
-| Method | Route                        | Description                                      |
-|--------|------------------------------|--------------------------------------------------|
-| GET    | /api/drivers                 | returns array of drivers in database             |
-| GET    | /api/drivers/:driverId       | returns driver specified by :driverId            |
-| PUT    | /api/drivers/:driverId       | updates driver specified by :driverId            |
-| POST   | /api/drivers                 | creates & returns new driver                     |
-| DELETE | /api/drivers/:driverId       | deletes driver specified by :driverId            |
+| Method | Route                        | Description                                                      |
+|--------|------------------------------|------------------------------------------------------------------|
+| GET    | /api/drivers                 | returns array of drivers in database                             |
+| GET    | /api/drivers/:driverId       | returns driver specified by :driverId                            |
+| PUT    | /api/drivers/:driverId       | updates driver specified by :driverId & returns updated driver   |
+| POST   | /api/drivers                 | creates & returns new driver                                     |
+| DELETE | /api/drivers/:driverId       | deletes driver specified by :driverId                            |
 
 
 **Rides**
-| Method | Route                        | Description                                      |
-|--------|------------------------------|--------------------------------------------------|
-| GET    | /api/rides                   | returns array of rides in database               |
-| GET    | /api/rides/:rideId           | returns ride specified by :rideId                |
-| PUT    | /api/rides/:rideId           | updates ride specified by :rideId                |
-| POST   | /api/rides                   | creates & returns new ride                       |
-| DELETE | /api/rides/:rideId           | deletes ride specified by :rideId                |
+| Method | Route                        | Description                                                      |
+|--------|------------------------------|------------------------------------------------------------------|
+| GET    | /api/rides                   | returns array of rides in database                               |
+| GET    | /api/rides/:rideId           | returns ride specified by :rideId                                |
+| PUT    | /api/rides/:rideId           | updates ride specified by :rideId & returns updated ride         |
+| POST   | /api/rides                   | creates & returns new ride                                       |
+| DELETE | /api/rides/:rideId           | deletes ride specified by :rideId                                |
 
 
 ## Signup Endpoint
