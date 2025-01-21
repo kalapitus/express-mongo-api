@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //import user model
-const User = require('../routes/models/userModel');
+const User = require('../models/userModel');
 
 //import jsonwebtoken
 const jwt = require('jsonwebtoken');

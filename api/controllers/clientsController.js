@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //import client model
-const Client = require('../routes/models/clientModel');
+const Client = require('../models/clientModel');
 
 //get all clients
 exports.clientsGetAll = (req, res, next) => {

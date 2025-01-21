@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //import driver model
-const Driver = require('../routes/models/driverModel');
+const Driver = require('../models/driverModel');
 
 //get all drivers
 exports.driversGetAll = (req, res, next) => {

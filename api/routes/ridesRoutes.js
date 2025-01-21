@@ -5,7 +5,7 @@ const express = require('express');
 const router = express.Router();
 
 //authorization
-const auth = require('./middleware/authorization');
+const auth = require('../middleware/authorization');
 
 //import controller
 const ridesController = require('../controllers/ridesController');

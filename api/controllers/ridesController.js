@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //import ride model
-const Ride = require('../routes/models/rideModel');
+const Ride = require('../models/rideModel');
 
 //get all rides
 exports.ridesGetAll = (req, res, next) => {
